@@ -38,7 +38,6 @@ main{
         .subtitle{
             font-size: 2.4rem;
             font-weight: 200;
-            letter-spacing: .1rem;
             text-align: center;
             margin-bottom: 1rem;
             color: $grey;
@@ -50,7 +49,6 @@ main{
         h1{
             font-size: 2.4rem;
             font-weight: semibold;
-            letter-spacing: .1rem;
             text-align: center;
             margin-bottom: 2rem;
             color: $grey;
@@ -113,6 +111,7 @@ main{
             line-height: 2.3rem;
             letter-spacing: 0.009rem;
             margin-bottom: 4rem;
+            opacity: .5rem;
           }
       
           img {
