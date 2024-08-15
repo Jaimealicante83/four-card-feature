@@ -1,0 +1,147 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 40rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin: 0 auto;
+  margin-bottom: 7.5rem;
+}
+@media screen and (min-width: 1024px) {
+  main {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    max-width: 110rem;
+  }
+}
+main .title-wrapper {
+  max-width: 54rem;
+  margin-top: 9.2rem;
+  margin-bottom: 6.8rem;
+}
+main .title-wrapper .subtitle {
+  font-size: 2.4rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #4D4F62;
+}
+@media screen and (min-width: 1024px) {
+  main .title-wrapper .subtitle {
+    font-size: 3.6rem;
+    letter-spacing: 0.25rem;
+  }
+}
+main .title-wrapper h1 {
+  font-size: 2.4rem;
+  font-weight: semibold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4D4F62;
+}
+@media screen and (min-width: 1024px) {
+  main .title-wrapper h1 {
+    font-size: 3.6rem;
+    letter-spacing: 0.25rem;
+  }
+}
+main .title-wrapper p {
+  font-size: 1.5rem;
+  font-weight: regular;
+  line-height: 2.5rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  color: #4D4F62;
+  opacity: 0.5;
+}
+main .cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main .cards-wrapper .card {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-top: 0.5rem solid;
+}
+@media screen and (min-width: 1024px) {
+  main .cards-wrapper .card {
+    min-width: 35rem;
+  }
+}
+main .cards-wrapper .card.card-supervisor {
+  border-top-color: #44D3D2;
+}
+main .cards-wrapper .card.card-team {
+  border-top-color: #EA5454;
+}
+main .cards-wrapper .card.card-karma {
+  border-top-color: #FCAE4A;
+}
+main .cards-wrapper .card.card-calculator {
+  border-top-color: #549EF2;
+}
+main .cards-wrapper .card h2 {
+  font-size: 2rem;
+  font-weight: semibold;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+  color: #4D4F62;
+}
+main .cards-wrapper .card p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+  letter-spacing: 0.009rem;
+  margin-bottom: 4rem;
+}
+main .cards-wrapper .card img {
+  height: 5.7rem;
+  width: auto;
+  align-self: flex-end;
+}
+@media screen and (min-width: 1024px) {
+  main .cards-wrapper .card img {
+    height: 6.4rem;
+  }
+}
+@media (min-width: 1024px) {
+  main .cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  main .cards-wrapper .card:nth-child(1) {
+    align-self: center;
+  }
+  main .cards-wrapper .center-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-self: center;
+  }
+  main .cards-wrapper .card:nth-child(3) {
+    align-self: center;
+  }
+}/*# sourceMappingURL=estilo.css.map */
