@@ -38,7 +38,6 @@ main .title-wrapper {
 main .title-wrapper .subtitle {
   font-size: 2.4rem;
   font-weight: 200;
-  letter-spacing: 0.1rem;
   text-align: center;
   margin-bottom: 1rem;
   color: #4D4F62;
@@ -52,7 +51,6 @@ main .title-wrapper .subtitle {
 main .title-wrapper h1 {
   font-size: 2.4rem;
   font-weight: semibold;
-  letter-spacing: 0.1rem;
   text-align: center;
   margin-bottom: 2rem;
   color: #4D4F62;
@@ -82,7 +80,7 @@ main .cards-wrapper .card {
   flex-direction: column;
   padding: 3rem;
   border-radius: 0.8rem;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 11px 23px -3px rgb(194, 194, 194);
   border-top: 0.5rem solid;
 }
 @media screen and (min-width: 1024px) {
@@ -115,6 +113,7 @@ main .cards-wrapper .card p {
   line-height: 2.3rem;
   letter-spacing: 0.009rem;
   margin-bottom: 4rem;
+  opacity: 0.6;
 }
 main .cards-wrapper .card img {
   height: 5.7rem;
